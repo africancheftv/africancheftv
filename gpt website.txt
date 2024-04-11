@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African ChefTV - African Food Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/BlankMap-Africa.svg/1024px-BlankMap-Africa.svg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #ffffff;
+        }
+        header {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #2ecc71;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #ffffff;
+            opacity: 0.9;
+        }
+        .video {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #2ecc71;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to African ChefTV - African Food Blog</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#videos">Videos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>Welcome to African ChefTV, your ultimate destination for exploring the rich and diverse culinary traditions of Africa!</p>
+        <p>Follow us on <a href="https://www.instagram.com/your_instagram_username/">Instagram</a> and subscribe to our <a href="https://www.youtube.com/your_youtube_channel/">YouTube channel</a> for more delicious recipes!</p>
+    </div>
+    <div class="container" id="videos">
+        <h2>Videos</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!-- Add more video embeds as needed -->
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or suggestions, feel free to reach out to us:</p>
+        <p>Email: africancheftv@example.com</p>
+        <p>Phone: +1234567890</p>
+    </div>
+    <footer>
+        &copy; 2024 African ChefTV - African Food Blog
+    </footer>
+</body>
+</html>
